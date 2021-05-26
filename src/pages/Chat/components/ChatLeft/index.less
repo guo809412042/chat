@@ -1,0 +1,80 @@
+.chatLeft {
+  width: 200px;
+  height: 740px;
+  background-color: #eee;
+  & > .leftHeader {
+    position: relative;
+    & > .avatarView {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      & > .avatar {
+        position: relative;
+        & > i:last-of-type {
+          position: absolute;
+          bottom: 0;
+          font-size: 15px;
+          right: 0;
+        }
+      }
+    }
+
+    & > .status {
+      position: absolute;
+      left: 75px;
+      top: 40px;
+      width: 70px;
+      background-color: white;
+      padding: 10px 0;
+      z-index: 11;
+      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+      & > li {
+        padding: 0 0 0 10px;
+        & > .statusSpan {
+          display: inline-block;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+        }
+        & > span:last-of-type {
+          margin-left: 6px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  & .dialogueWrap {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    & > .leftView {
+      width: 85%;
+      & > div:first-of-type {
+        display: flex;
+        justify-content: space-between;
+      }
+      & > div:last-of-type {
+        display: flex;
+        justify-content: space-between;
+        & > span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+    & > .rightView {
+      width: 15%;
+      color: #e5712d;
+      align-self: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &:hover {
+      border-bottom: 1px solid #e5712d;
+    }
+  }
+}

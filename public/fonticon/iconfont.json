@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31108",
+      "name": "忙碌-im",
+      "font_class": "mangluim",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "697458",
+      "name": "表情",
+      "font_class": "smile",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "984054",
+      "name": "翻译",
+      "font_class": "weibiaoti556",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "1008561",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "1203694",
+      "name": "闹铃",
+      "font_class": "paidui",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8174513",
+      "name": "离线",
+      "font_class": "lixian",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "8174516",
+      "name": "在线",
+      "font_class": "zaixian",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "9626963",
+      "name": "休息",
+      "font_class": "xiuxi",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "15644320",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "15726810",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "19657962",
+      "name": "图 片",
+      "font_class": "image",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}
